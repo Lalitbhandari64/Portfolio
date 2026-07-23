@@ -1,0 +1,1450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Lalit Bhandari | Portfolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#050816;
+color:#fff;
+overflow-x:hidden;
+}
+
+/* Background */
+
+body::before{
+content:"";
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:
+radial-gradient(circle at 20% 20%,rgba(0,212,255,.18),transparent 30%),
+radial-gradient(circle at 80% 30%,rgba(132,0,255,.18),transparent 30%),
+radial-gradient(circle at 50% 90%,rgba(0,255,255,.15),transparent 35%);
+animation:bgMove 10s infinite alternate;
+z-index:-2;
+}
+
+@keyframes bgMove{
+
+0%{
+transform:scale(1);
+}
+
+100%{
+transform:scale(1.2);
+}
+
+}
+
+/* Navbar */
+
+header{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+padding:18px 8%;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+background:rgba(255,255,255,.05);
+
+backdrop-filter:blur(20px);
+
+border-bottom:1px solid rgba(255,255,255,.08);
+
+z-index:999;
+
+}
+
+.logo{
+
+font-size:30px;
+
+font-weight:700;
+
+color:#00d4ff;
+
+}
+
+nav a{
+
+color:white;
+
+text-decoration:none;
+
+margin-left:28px;
+
+font-weight:500;
+
+transition:.3s;
+
+}
+
+nav a:hover{
+
+color:#00d4ff;
+
+}
+
+/* Hero */
+
+.hero{
+
+height:100vh;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+padding:0 8%;
+
+}
+
+.glass{
+
+width:100%;
+
+max-width:950px;
+
+padding:70px;
+
+border-radius:30px;
+
+background:rgba(255,255,255,.05);
+
+border:1px solid rgba(255,255,255,.1);
+
+backdrop-filter:blur(18px);
+
+text-align:center;
+
+}
+
+.hero h1{
+
+font-size:70px;
+
+margin-bottom:20px;
+
+}
+
+.hero h1 span{
+
+color:#00d4ff;
+
+}
+
+.hero p{
+
+font-size:20px;
+
+color:#ddd;
+
+line-height:34px;
+
+margin-bottom:35px;
+
+}
+
+.btn{
+
+display:inline-block;
+
+padding:15px 38px;
+
+background:#00d4ff;
+
+color:#000;
+
+text-decoration:none;
+
+font-weight:700;
+
+border-radius:50px;
+
+transition:.4s;
+
+}
+
+.btn:hover{
+
+transform:translateY(-5px);
+
+box-shadow:0 0 25px #00d4ff;
+
+}
+
+.social{
+
+margin-top:40px;
+
+display:flex;
+
+justify-content:center;
+
+gap:20px;
+
+}
+
+.social a{
+
+width:55px;
+
+height:55px;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+background:rgba(255,255,255,.08);
+
+border-radius:50%;
+
+color:white;
+
+font-size:22px;
+
+text-decoration:none;
+
+transition:.4s;
+
+}
+
+.social a:hover{
+
+background:#00d4ff;
+
+color:black;
+
+transform:translateY(-8px);
+
+}
+
+section{
+
+padding:120px 8%;
+
+}
+
+.title{
+
+font-size:45px;
+
+text-align:center;
+
+margin-bottom:60px;
+
+color:#00d4ff;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">Lalit.</div>
+
+<nav>
+
+<a href="#about">About</a>
+
+<a href="#skills">Skills</a>
+
+<a href="#projects">Projects</a>
+
+<a href="#achievement">Achievements</a>
+
+<a href="#gallery">Gallery</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="glass">
+
+<h1>Hello, I'm <span>Lalit Bhandari</span></h1>
+
+<p>
+
+BCA Student • Web Developer • Android Developer • AI Enthusiast
+
+<br><br>
+
+I build modern websites, Basic Android apps and innovative digital experiences.
+
+</p>
+
+<a href="#about" class="btn">
+
+Explore Portfolio
+
+</a>
+
+<div class="social">
+
+<a href="https://github.com/Lalitbhandari64"
+   target="_blank"
+   rel="noopener noreferrer">
+   <i class="fab fa-github"></i>
+</a>
+
+<a href="https://www.linkedin.com/in/lalit-bhandari-594844325?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+   target="_blank"
+   rel="noopener noreferrer">
+   <i class="fab fa-linkedin-in"></i>
+</a>
+
+<a href="mailto:lalitbhandari6494@gmail.com">
+
+<i class="fas fa-envelope"></i>
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ==========================
+        ABOUT SECTION
+========================== -->
+
+<section id="about">
+
+<h2 class="title">About Me</h2>
+
+<div class="about-container">
+
+<div class="about-image">
+
+<img src="lalit.jpeg" alt="Lalit Bhandari">
+
+</div>
+
+<div class="about-content">
+
+<h3>Hello, I'm Lalit Bhandari 👋</h3>
+
+<p>
+
+I'm a passionate <b>BCA Student</b> with a strong interest in
+Web Development, Android Development and Artificial Intelligence.
+
+I enjoy building modern user interfaces, solving real-world
+problems and participating in hackathons and innovation events.
+
+</p>
+
+<p>
+
+My goal is to build impactful products, improve my technical
+skills every day and create innovative startup solutions.
+
+</p>
+
+<div class="about-buttons">
+
+<a href="#" class="btn">
+Download Resume
+</a>
+
+<a href="#contact" class="btn secondary-btn">
+Contact Me
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ==========================
+        SKILLS
+========================== -->
+
+<section id="skills">
+
+<h2 class="title">Skills</h2>
+
+<div class="skill-grid">
+
+<div class="skill-card">
+<i class="fab fa-html5"></i>
+<h3>HTML5</h3>
+<p>Responsive Website Development</p>
+</div>
+
+<div class="skill-card">
+<i class="fab fa-css3-alt"></i>
+<h3>CSS3</h3>
+<p>Modern UI & Animations</p>
+</div>
+
+<div class="skill-card">
+<i class="fab fa-js"></i>
+<h3>JavaScript</h3>
+<p>Interactive Websites</p>
+</div>
+
+<div class="skill-card">
+<i class="fab fa-react"></i>
+<h3>React</h3>
+<p>Frontend Development</p>
+</div>
+
+<div class="skill-card">
+<i class="fab fa-python"></i>
+<h3>Python</h3>
+<p>Programming & AI</p>
+</div>
+
+<div class="skill-card">
+<i class="fas fa-mobile-alt"></i>
+<h3>Kotlin</h3>
+<p>Android Development</p>
+</div>
+
+<div class="skill-card">
+<i class="fas fa-database"></i>
+<h3>Firebase</h3>
+<p>Authentication & Database</p>
+</div>
+
+<div class="skill-card">
+<i class="fab fa-git-alt"></i>
+<h3>Git & GitHub</h3>
+<p>Version Control</p>
+</div>
+
+</div>
+
+</section>
+
+
+<style>
+
+/* ABOUT */
+
+.about-container{
+
+display:grid;
+
+grid-template-columns:320px 1fr;
+
+gap:60px;
+
+align-items:center;
+
+}
+
+.about-image{
+
+display:flex;
+
+justify-content:center;
+
+}
+
+.about-image img{
+
+width:280px;
+
+height:280px;
+
+object-fit:cover;
+
+border-radius:50%;
+
+border:5px solid #00d4ff;
+
+box-shadow:0 0 35px #00d4ff;
+
+transition:.4s;
+
+}
+
+.about-image img:hover{
+
+transform:scale(1.05);
+
+box-shadow:0 0 60px #00d4ff;
+
+}
+
+.about-content h3{
+
+font-size:38px;
+
+margin-bottom:20px;
+
+}
+
+.about-content p{
+
+font-size:18px;
+
+line-height:34px;
+
+color:#d8d8d8;
+
+margin-bottom:20px;
+
+}
+
+.about-buttons{
+
+display:flex;
+
+gap:20px;
+
+flex-wrap:wrap;
+
+margin-top:20px;
+
+}
+
+.secondary-btn{
+
+background:transparent;
+
+color:#00d4ff;
+
+border:2px solid #00d4ff;
+
+}
+
+.secondary-btn:hover{
+
+background:#00d4ff;
+
+color:#000;
+
+}
+
+
+/* SKILLS */
+
+.skill-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+gap:25px;
+
+}
+
+.skill-card{
+
+background:rgba(255,255,255,.05);
+
+border:1px solid rgba(255,255,255,.08);
+
+border-radius:22px;
+
+padding:35px;
+
+text-align:center;
+
+backdrop-filter:blur(15px);
+
+transition:.4s;
+
+}
+
+.skill-card:hover{
+
+transform:translateY(-12px);
+
+box-shadow:0 0 30px #00d4ff;
+
+}
+
+.skill-card i{
+
+font-size:55px;
+
+color:#00d4ff;
+
+margin-bottom:20px;
+
+}
+
+.skill-card h3{
+
+margin-bottom:12px;
+
+font-size:24px;
+
+}
+
+.skill-card p{
+
+color:#ccc;
+
+line-height:28px;
+
+}
+
+
+/* Responsive */
+
+@media(max-width:900px){
+
+.about-container{
+
+grid-template-columns:1fr;
+
+text-align:center;
+
+}
+
+.about-image img{
+
+width:230px;
+
+height: 230px;
+
+}
+
+.about-buttons{
+
+justify-content:center;
+
+}
+
+}
+
+</style>
+
+<!-- ==========================
+        PROJECTS SECTION
+========================== -->
+
+<section id="projects">
+
+<h2 class="title">Featured Projects</h2>
+
+<div class="project-grid">
+
+<!-- LAMHE -->
+
+<div class="project-card">
+
+<img src="images/lamhe.png" alt="LAMHE Website">
+
+<div class="project-content">
+
+<h3>🌸 LAMHE Attar Website</h3>
+
+<p>
+
+A premium perfume e-commerce website built with a modern
+luxury design, responsive layout and smooth user experience.
+
+</p>
+
+<div class="tech">
+
+<span>React</span>
+<span>CSS</span>
+<span>Firebase</span>
+
+</div>
+
+<button class="coming-btn">
+
+🚀 Coming Soon
+
+</button>
+
+</div>
+
+</div>
+
+
+<!-- Hackathon -->
+
+<div class="project-card">
+
+<img src="images/ecommerce.png" alt="Hackathon Website">
+
+<div class="project-content">
+
+<h3>🛒 Hackathon E-Commerce Website</h3>
+
+<p>
+
+An E-Commerce website developed during the MIET Hackathon
+competition with a clean shopping experience.
+
+</p>
+
+<div class="tech">
+
+<span>HTML</span>
+<span>CSS</span>
+<span>JavaScript</span>
+
+</div>
+
+<button class="coming-btn">
+
+🚀 Coming Soon
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ==========================
+       ACHIEVEMENTS
+========================== -->
+
+<section id="achievement">
+
+<h2 class="title">Achievements</h2>
+
+<div class="achievement-grid">
+
+<div class="achievement-card">
+
+<img src="miet1.jpeg">
+
+<h3>🥇 International Conference Ideathon</h3>
+
+<p>
+
+Winner of the International Conference Ideathon.
+
+Presented an innovative startup idea and secured
+First Position.
+
+</p>
+
+</div>
+
+
+
+<div class="achievement-card">
+
+<img src="images/startup-idea.jpg">
+
+<h3>💡 Startup Idea</h3>
+
+<p>
+
+Presentation of my startup idea showcased during
+the International Conference Ideathon.
+
+</p>
+
+</div>
+
+
+
+<div class="achievement-card">
+
+<img src="miet2.jpeg">
+
+<h3>🥈 MIET Hackathon</h3>
+
+<p>
+
+Secured Second Position by building
+an E-Commerce Website.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+<!-- ==========================
+          GALLERY
+========================== -->
+
+
+<style>
+
+/* PROJECTS */
+
+.project-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+
+gap:35px;
+
+}
+
+.project-card{
+
+background:rgba(255,255,255,.05);
+
+border-radius:25px;
+
+overflow:hidden;
+
+border:1px solid rgba(255,255,255,.08);
+
+transition:.4s;
+
+}
+
+.project-card:hover{
+
+transform:translateY(-12px);
+
+box-shadow:0 0 35px #00d4ff;
+
+}
+
+.project-card img{
+
+width:100%;
+
+height:240px;
+
+object-fit:cover;
+
+}
+
+.project-content{
+
+padding:30px;
+
+}
+
+.project-content h3{
+
+color:#00d4ff;
+
+font-size:28px;
+
+margin-bottom:15px;
+
+}
+
+.project-content p{
+
+line-height:30px;
+
+color:#ddd;
+
+}
+
+.tech span{
+
+display:inline-block;
+
+background:#00d4ff;
+
+color:black;
+
+padding:8px 16px;
+
+border-radius:20px;
+
+margin:20px 8px 0 0;
+
+font-weight:600;
+
+font-size:14px;
+
+}
+
+/* Coming Soon Button */
+
+.coming-btn{
+
+margin-top:25px;
+
+padding:14px 30px;
+
+border:none;
+
+border-radius:50px;
+
+background:#00d4ff;
+
+font-size:16px;
+
+font-weight:700;
+
+cursor:pointer;
+
+transition:.4s;
+
+}
+
+.coming-btn:hover{
+
+background:white;
+
+transform:scale(1.05);
+
+}
+
+
+/* ACHIEVEMENTS */
+
+.achievement-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:30px;
+
+}
+
+.achievement-card{
+
+background:rgba(255,255,255,.05);
+
+padding:25px;
+
+border-radius:25px;
+
+transition:.4s;
+
+border:1px solid rgba(255,255,255,.08);
+
+}
+
+.achievement-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 0 30px #8a2be2;
+
+}
+
+.achievement-card img{
+
+width:100%;
+
+height:220px;
+
+object-fit:cover;
+
+border-radius:18px;
+
+margin-bottom:20px;
+
+}
+
+.achievement-card h3{
+
+color:#00d4ff;
+
+margin-bottom:15px;
+
+}
+
+.achievement-card p{
+
+color:#ddd;
+
+line-height:30px;
+
+}
+
+
+/* GALLERY */
+
+.gallery-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:25px;
+
+}
+
+.gallery-grid img{
+
+width:100%;
+
+height:250px;
+
+object-fit:cover;
+
+border-radius:20px;
+
+transition:.4s;
+
+cursor:pointer;
+
+}
+
+.gallery-grid img:hover{
+
+transform:scale(1.05);
+
+box-shadow:0 0 30px #00d4ff;
+
+}
+
+</style>
+
+<!-- ==========================
+        CONTACT SECTION
+========================== -->
+
+<section id="contact">
+
+    <h2 class="title">Let's Connect</h2>
+
+    <div class="contact-container">
+
+        <!-- Left Side -->
+
+        <div class="contact-info">
+
+            <h3>Get In Touch</h3>
+
+            <p>
+                I'm always open to discussing new projects,
+                collaboration opportunities and innovative startup ideas.
+            </p>
+
+            <div class="contact-links">
+
+                <a href="https://github.com/Lalitbhandari64">
+                    <i class="fab fa-github"></i>
+                    GitHub
+                </a>
+
+                <a href="https://www.linkedin.com/in/lalit-bhandari-594844325?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+   target="_blank"
+   rel="noopener noreferrer">
+    <i class="fab fa-linkedin"></i>
+    LinkedIn
+</a>
+
+                <a href="mailto:lalitbhandari6494@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                    Email
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- Right Side -->
+
+        <form class="contact-form">
+
+            <input type="text"
+            placeholder="Your Name"
+            required>
+
+            <input type="email"
+            placeholder="Your Email"
+            required>
+
+            <textarea
+            rows="6"
+            placeholder="Your Message"
+            required></textarea>
+
+            <button class="btn">
+
+                Send Message
+
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- ==========================
+          FOOTER
+========================== -->
+
+<footer>
+
+    <h2>Lalit Bhandari</h2>
+
+    <p>
+        Web Developer • Android Developer • AI Enthusiast
+    </p>
+
+    <div class="footer-social">
+
+        <a href="https://github.com/Lalitbhandari64">
+            <i class="fab fa-github"></i>
+        </a>
+
+      <a href="https://www.linkedin.com/in/lalit-bhandari-594844325?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+   target="_blank"
+   rel="noopener noreferrer">
+    <i class="fab fa-linkedin"></i>
+</a>
+
+        <a href="mailto:lalitbhandari6494@gmail.com">
+            <i class="fas fa-envelope"></i>
+        </a>
+
+    </div>
+
+    <p class="copyright">
+        © 2026 Lalit Bhandari. All Rights Reserved.
+    </p>
+
+</footer>
+
+
+<style>
+
+/* CONTACT */
+
+.contact-container{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:50px;
+
+background:rgba(255,255,255,.05);
+
+padding:50px;
+
+border-radius:30px;
+
+border:1px solid rgba(255,255,255,.08);
+
+backdrop-filter:blur(15px);
+
+}
+
+.contact-info h3{
+
+font-size:35px;
+
+color:#00d4ff;
+
+margin-bottom:20px;
+
+}
+
+.contact-info p{
+
+color:#ddd;
+
+line-height:32px;
+
+font-size:18px;
+
+margin-bottom:25px;
+
+}
+
+.contact-links{
+
+display:flex;
+
+flex-direction:column;
+
+gap:18px;
+
+}
+
+.contact-links a{
+
+text-decoration:none;
+
+color:white;
+
+font-size:18px;
+
+transition:.3s;
+
+}
+
+.contact-links a:hover{
+
+color:#00d4ff;
+
+}
+
+.contact-links i{
+
+margin-right:12px;
+
+color:#00d4ff;
+
+}
+
+.contact-form{
+
+display:flex;
+
+flex-direction:column;
+
+gap:20px;
+
+}
+
+.contact-form input,
+.contact-form textarea{
+
+padding:18px;
+
+border:none;
+
+border-radius:15px;
+
+outline:none;
+
+background:#0f172a;
+
+color:white;
+
+font-size:16px;
+
+}
+
+.contact-form textarea{
+
+resize:none;
+
+}
+
+/* FOOTER */
+
+footer{
+
+padding:60px 10%;
+
+margin-top:100px;
+
+background:#030712;
+
+text-align:center;
+
+}
+
+footer h2{
+
+font-size:34px;
+
+color:#00d4ff;
+
+margin-bottom:15px;
+
+}
+
+footer p{
+
+color:#bbb;
+
+}
+
+.footer-social{
+
+margin:25px 0;
+
+}
+
+.footer-social a{
+
+display:inline-flex;
+
+align-items:center;
+
+justify-content:center;
+
+width:50px;
+
+height:50px;
+
+border-radius:50%;
+
+background:rgba(255,255,255,.08);
+
+margin:0 10px;
+
+color:white;
+
+text-decoration:none;
+
+transition:.4s;
+
+}
+
+.footer-social a:hover{
+
+background:#00d4ff;
+
+color:black;
+
+transform:translateY(-8px);
+
+}
+
+.copyright{
+
+margin-top:25px;
+
+font-size:15px;
+
+}
+
+/* MOBILE */
+
+@media(max-width:900px){
+
+.contact-container{
+
+grid-template-columns:1fr;
+
+}
+
+.hero h1{
+
+font-size:45px;
+
+}
+
+nav{
+
+display:none;
+
+}
+
+}
+
+</style>
+
+
+<script>
+
+/* Header Effect */
+
+window.addEventListener("scroll",()=>{
+
+const header=document.querySelector("header");
+
+if(window.scrollY>50){
+
+header.style.background="rgba(5,8,22,.90)";
+
+}else{
+
+header.style.background="rgba(255,255,255,.05)";
+
+}
+
+});
+
+
+/* Scroll Reveal */
+
+const observer=new IntersectionObserver((entries)=>{
+
+entries.forEach(entry=>{
+
+if(entry.isIntersecting){
+
+entry.target.style.opacity="1";
+
+entry.target.style.transform="translateY(0)";
+
+}
+
+});
+
+},{threshold:0.15});
+
+
+document.querySelectorAll("section").forEach(section=>{
+
+section.style.opacity="0";
+
+section.style.transform="translateY(50px)";
+
+section.style.transition="all .9s ease";
+
+observer.observe(section);
+
+});
+
+</script>
+
+</body>
+
+</html>
